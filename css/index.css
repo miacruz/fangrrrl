@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft.ttf");
+}
+
+body{
+    max-width: 1120px;
+    margin: 130px auto;
+    background-color: #ECECE4;
+}
+
+.center{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.frame{
+    width: 70%;
+}
+
+button{
+    background-color: #DD9296;
+    border-color: #22031F;
+    border-radius: 1px;
+    padding: 15px;
+    font-family: "Minecraft"; 
+    font-size: 16px; 
+    display: inline-block; 
+    margin: 20px auto; 
+}
+
+a{
+    text-decoration: none;
+    color: #22031F;
+}
+
+a:hover{
+    text-decoration: underline;
+}
