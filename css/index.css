@@ -3,6 +3,10 @@
     src: url("Minecraft.ttf");
 }
 
+html{
+    font-family: "Minecraft", monospace;
+  }
+
 body{
     max-width: 1120px;
     margin: 130px auto;
