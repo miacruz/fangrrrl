@@ -1,15 +1,15 @@
 @font-face {
     font-family: "Minecraft";
-    src: url("Minecraft.ttf");
+    src: url("../Minecraft.ttf");
 }
 
-html{
-    font-family: "Minecraft", monospace;
-  }
+html, body{
+    cursor: url(../icons/cursor-reg.png), auto;
+}
 
 body{
     max-width: 1120px;
-    margin: 130px auto;
+    margin: 11.5% auto;
     background-color: #ECECE4;
 }
 
@@ -25,8 +25,8 @@ body{
 button{
     background-color: #DD9296;
     border-color: #22031F;
-    border-radius: 1px;
-    padding: 15px;
+    border-radius: 0.5px;
+    padding: 20px;
     font-family: "Minecraft"; 
     font-size: 16px; 
     display: inline-block; 
@@ -41,3 +41,19 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+button:hover, a:hover{
+	cursor: url(icons/cursor-click.png);
+}
+
+#logo {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#logo:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+  

@@ -1,0 +1,365 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url('../Minecraft.ttf');
+}
+
+html, body{
+    cursor: url(../icons/cursor-reg.png), auto;
+}
+
+
+body {
+	-moz-osx-font-smoothing: none;
+  -webkit-font-smoothing: none;
+  -moz-webkit-font-smoothing: none;
+  -ms-webkit-font-smoothing: none;
+  -o-webkit-font-smoothing: none;	
+	/* font-smoothing: never; */
+	font-smooth: never;
+}
+
+
+body {
+	margin: 0;
+	font-size: 12px;
+	line-height: 143%;
+	background: #ECECE4;
+	overflow-x: hidden;
+	overflow-y: auto;
+/* 	z-index: -100; */
+	overflow: hidden;
+	font-family: 'Minecraft';
+	padding: 20px;
+	letter-spacing: 0.5px;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-color: #ECECE4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	border-radius: 0px 0px 6px 6px;
+	margin: 20px;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);	
+}
+
+
+.img_holder {
+	padding: 0; 
+	position: absolute; 
+	background: #fff; 
+	border: 1px #22031F solid; 
+/*
+	border-right: 2px #000 solid;
+	border-bottom: 2px #000 solid;
+*/
+	cursor: url('../icons/cursor-click.png'), auto;
+	box-shadow: 1px 1px 0px#22031F;
+}
+.img_wrapper {
+/* 	padding: 5px; */
+	padding: 4px;
+/* 	cursor: hand; */
+	font-size: 0;
+	line-height: 0;
+	clear: both;
+	box-sizing: padding-box;
+}
+.img_wrapper img {
+/* 	cursor: hand; */
+	background: #ddd;
+}
+
+
+#links {
+	position: absolute;
+	top: 60px;
+	right: 20%;
+    height: 85%;
+	font-family: 'Minecraft';
+	font-size: 12px;
+	line-height: 1.3em;
+	/* text-align: center; */
+}
+
+#links a {
+	color: #22031F;
+}
+
+
+
+hr {
+	margin: 0;
+	padding: 0;
+	margin: 6px 0 8px 0;
+	height: 0px;
+	color: #ccc;
+	background: #fff;
+/* 	border-bottom: 1px #aaa dotted; */
+}
+
+#menu {
+	font-size: 0px;
+    background: #ECECE4;
+	border-bottom: 1px#22031F solid;
+	padding: 0; margin: 0;
+    padding-bottom: 2px;
+	z-index: 888;
+	height: 20px;
+	position: relative;
+
+}
+
+#upper_left{
+    width: 25px;
+    padding-left: 5px;
+}
+
+#title {
+	cursor: url('../icons/cursor-reg.png'), auto;
+	position: absolute;
+	top: 23px;
+	left: 60px;
+	font-family: 'Minecraft';
+	font-size: 12px;
+	z-index: 999;
+}
+#time {
+	cursor: url('../icons/cursor-reg.png'), auto;
+	position: absolute;
+	top: 23px;
+	right: 35px;
+	font-family: 'Minecraft';
+	font-size: 12px;
+
+	z-index: 999;
+}
+
+/* .img_holder {
+	/* background-image: url('gfx/window_bg.gif'); */
+	/* background-position: center top;
+	background-repeat: repeat-x;	
+	z-index: 9999;
+} */ 
+.img_wrapper img {
+	display: none;
+	cursor: url('../icons/cursor-click.png'), auto;
+}
+
+
+.folders {
+	float: left;
+	z-index: 0;
+/* 	position: absolute; */
+	margin-top: 35px;
+	margin-left: 15px;
+	overflow: visible;
+/* 	width: 200px; */
+}
+
+.folders-2 {
+	float: right;
+	z-index: 0;
+/* 	position: absolute; */
+	margin-top: 35px;
+	margin-left: 15px;
+	overflow: visible;
+/* 	width: 200px; */
+}
+
+.folder {
+	cursor: url('../icons/cursor-reg.png'), auto;
+	margin-bottom: 10px;
+	position: relative;
+}
+.folder_text {
+	color: #22031F;
+	padding: 1px 5px;
+	background: #ECECE4;
+	border-top: 0px white solid;
+	position: relative;
+	top: 2px;
+	text-decoration: underline;
+}
+.folder_text:hover {
+	cursor: url('../icons/cursor-click.png'), auto;
+	color: #ECECE4;
+	background: #22031F ;
+	border-top: 0px #22031F solid;
+}
+.folder {
+	color: #ECECE4;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.curtain {
+	background: #87B38D;
+	font-size: 0;
+	line-height: 0;
+	height: 20px;
+	width: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+.curtain1 {
+	width: 100%;
+}
+.curtain2 {
+	height: 100%;
+}
+.curtain3 {
+	width: 100%;
+	top: auto;
+	bottom: 0px !important;
+}
+.curtain4 {
+	height: 100%;
+	right: 0px !important;
+	left: auto;
+}
+
+/* .no-click-icon{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	cursor: hand !important;
+}
+.plant:hover {
+	cursor: hand !important;
+} */
+.trash {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+}
+
+
+.img_window{
+    height: 85%;
+    width: auto;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+button{
+	background-color: #DD9296;
+    border-color: #22031F;
+    border-radius: 0.5px;
+    padding: 15px;
+    font-family: "Minecraft"; 
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: -20px auto;
+	margin-right: 10px;
+    z-index: 2;
+	position: relative;
+	cursor: url(../icons/cursor-click.png), auto;
+}
+
+.button-container{
+	position: absolute;
+    left: 50%;
+	top: 85%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	cursor: url(../icons/cursor-click.png), auto;
+}
+
+a{
+    text-decoration: none;
+    color: #22031F;
+	cursor: url(../icons/cursor-click.png), auto;
+}
+
+a:hover{
+    text-decoration: underline;
+	cursor: url(../icons/cursor-click.png), auto;
+}
+
+button:hover{
+	cursor: url(../icons/cursor-click.png), auto;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 999; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: #F2B7C6;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #22031F;
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	z-index: 9999;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #22031F;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #ECECE4;
+	text-decoration: none;
+	cursor: url('../icons/cursor-click.png'), auto;
+  }
+  
+  .modal-header {
+	padding: 2px 16px;
+	background-color: #87B38D;
+	color: #22031F;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  /* .modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+  } */
