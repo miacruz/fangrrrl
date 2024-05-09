@@ -5,6 +5,7 @@
 
 html{
   font-family: "Minecraft", monospace;
+  cursor: url(.././icons/cursor-reg.png), auto;
 }
 
 .p-header{
@@ -20,6 +21,7 @@ body{
   max-width: 1120px;
   margin: 5% auto;
   background-color: #ECECE4;
+  cursor: url(.././icons/cursor-reg.png), auto;
 }
 
 .center{
@@ -34,24 +36,32 @@ body{
 button{
   background-color: #DD9296;
   border-color: #22031F;
-  border-radius: 1px;
+  border-radius: 0.5px;
   padding: 15px;
   font-family: "Minecraft"; 
   font-size: 16px; 
   display: inline-block; 
   margin: 20px 5px auto; 
+  cursor: url(.././icons/cursor-click.png), auto;
+}
+
+button:hover{
+    cursor: url(.././icons/cursor-click.png), auto;
 }
 
 a{
   text-decoration: none;
   color: #22031F;
+  cursor: url(.././icons/cursor-click.png), auto;
 }
 
 a:hover{
   text-decoration: underline;
+  cursor: url(.././icons/cursor-click.png), auto;
 }
 
 canvas {
   display: block;
   margin: auto;
+  cursor: url(.././icons/cursor-reg.png), auto;
 }
